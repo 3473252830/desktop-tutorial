@@ -9,7 +9,7 @@ services:
       service:
         name: serverless-devs-application
       function:
-        name: desktop-tutorial-oxlv
+        name: desktop-tutorial-6h0l
         description: Initialize
         runtime: custom.debian10
         environmentVariables:
@@ -21,7 +21,7 @@ services:
         layers:
           - acs:fc:cn-hangzhou:official:layers/Python3-Flask2x/versions/2
         memorySize: 16384
-        cpu: 8
+        cpu: 4
         timeout: 60
         codeUri: ./
         diskSize: 10240
